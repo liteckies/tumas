@@ -1,0 +1,699 @@
+/*
+ *
+ * Template Name: Fullscreen Responsive Register Template
+ * Template URI: http://azmind.com
+ * Author: Anli Zaimi
+ * Author URI: http://azmind.com
+ *
+ */
+
+
+body {
+    background-color:#B4C869;
+    text-align: left;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 1;}
+
+strong { font-weight: 700; }
+.red {  
+
+    color:#fff;
+     }
+.light-green {  
+
+    color:#;
+
+     }
+.white{
+    color:#fff;
+}
+a:hover { 
+    text-decoration: none; 
+      }
+
+.header {
+    margin-top:0px;
+    border-top:6px solid #FF7900;
+    
+}
+.logo_info {
+   margin-left: -140px;
+    
+}
+.logo_info h1 {
+    padding-left: 50px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 100px;
+    color:#FF7900;
+    margin-top: 25px;
+
+    
+}
+
+.logo a img { height:100px;
+               width:100px;
+               margin-top: 5px;
+               
+ }
+/*header navigation styles*/
+.navigation {
+    width: 100px;
+    margin-top: 43px;
+    float: right;
+    margin-right: 190px;
+    
+}
+ .signup_option{
+
+    color:#939597;
+    padding:2px;
+    border-radius: 2px;
+    margin-top:40px;
+    margin-left: 770px;
+
+}
+.signup_option a{
+
+    color:#ffffff; 
+}
+.signup_option a:hover{
+    color:#FF7900;
+     transition: all 0.3s linear;
+}
+
+.login_option{
+color:#ffffff;
+padding:2px;
+margin-top:40px;
+border-radius: 2px;
+text-decoration: none;
+}
+.login_option a:hover{
+color:#FF7900;
+ transition: all 0.3s linear;
+}
+
+/*header navigation styles ends here*/
+.white{
+   color:#ffffff;
+   font-weight: bold;
+   border-radius: 5px;
+   padding:5px;
+   margin-right: 
+   text-transform: none;
+    transition: all 0.2s linear;
+   
+}
+.links .login-opti {
+    display: inline-block;
+    margin-right:30px;
+    margin-top:10px;
+    color:#80D462;
+}
+.links .login-option:hover {
+    background-color:#FF7C09;
+   color:#ffffff;
+   font-weight: bold;
+   border-radius: 5px;
+   padding:5px;
+   text-transform: none;
+   transition: all 0.2s linear;
+
+   
+}
+/* ----- iPhone ----- */
+
+.left_side {
+    margin-left: 150px;
+    margin-top: 100px;
+    border:1px solid #f5f5f5;
+    background-color:#f2f2f2;
+    padding:px;    
+
+}
+.left_side img{
+
+    border-radius: 4px;
+    padding:5px;
+    width:460px;
+    height: 500px;
+}
+
+.left_side h1{
+      color:#FF7F0E;
+      font-weight: bold;
+      font-family:;
+      margin-left: 10px;
+}
+.left_side p{
+      color:#;
+      font-size: 1.5em;
+      text-align:left;
+}
+
+/* ----- Registration Form ----- */
+.register{
+
+    margin:150px auto;
+}
+.
+    
+}
+
+.register form h2 {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    background: url(../img/pencil.png) 20px 6px no-repeat;
+    border-bottom: 2px dotted #bbb;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.register form h2 {
+             margin-left:200;
+                  }
+.register form input {
+    width: 95%;
+    height: 15px;
+    margin:-1px 0px;
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #888;
+    font-size: 16px;
+}
+
+.register form input:focus {
+    border: 1px solid #;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.register form label {
+    margin: 7px 0 10px 5px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.register form label span {
+    font-style: italic;
+}
+
+.register form input:-moz-placeholder { color: #aaa; }
+.register form input:-ms-input-placeholder { color: #aaa; }
+.register form input::-webkit-input-placeholder { color: #aaa; }
+
+.register form button {
+    cursor: pointer;
+    width: 100%;
+    height: 42px;
+    margin-top: 25px;
+    padding: 0;
+    background: #FF7C09;;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 0;
+    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.register form button:hover {
+    -moz-box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+    -webkit-box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+    box-shadow: 0 -15px 30px 0 rgba(255,255,255,.05) inset;
+}
+
+.register form button:active {
+    -moz-box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+    box-shadow:
+        0 -15px 30px 0 rgba(255,255,255,.05) inset,       
+        0 5px 8px 0 rgba(0,0,0,.1) inset;
+}
+/*---- banner ----*/
+.banner-info{
+    padding: 9em 0 12em;
+}
+.banner-info h2{
+    font-weight: 700;
+    font-size: 3.9em;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 70%;
+    display: inline-block;
+    line-height: 1.3em;
+    text-shadow: 0 3px 5px rgba(0,0,0,.1);
+}
+.banner-info span{
+    width:20%;
+    height:1px;
+    background:#FFFFFF;
+    display:inline-block;
+}
+.banner-info p{
+    color:#E8F7E6;
+    font-weight:400;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em auto;
+    width: 50%;
+}
+ .text-center{
+
+    text-align: center;
+}
+.button .btn{
+
+    margin-top: -320px;
+    margin-left: 500px;
+    background-color: #FFF;
+    color:#FF7900;
+    font-weight:bold;
+    font-size: 1.5em;
+    padding:10px;
+    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+}
+ .btn .btn-primary{
+    background-color: green;
+ }   
+}
+/*---- services ----*/
+
+/* ----- Media queries ----- */
+
+@media (max-width: 1200px) {
+
+    .register form h2 { background: url(../img/pencil.png) 20px 3px no-repeat; }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .register form h2 { background: none; }
+
+}
+
+@media (max-width: 767px) {
+
+    body { padding-left: 0; padding-right: 0; }
+
+    .logo, .links { text-align: center; }
+
+    .links { padding-bottom: 5px; }
+
+    .logo h1 { padding-left: 0; }
+
+    .links a.home { margin-left: 0; }
+
+    .links a.blog { margin-right: 0; }
+
+    .register-container { padding-left: 20px; padding-right: 20px; }
+
+    .register form h2 { background: none; }
+
+    .iphone img { display: none; }
+
+}
+
+@media (max-width: 480px) {
+
+    .register form button { width: 97%; }
+
+}
+/*login form styles starts here*/
+@import http://fonts.googl0eapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+.main  {
+    opacity: 0.9;
+width:700px;
+margin-top:100px;
+margin-left: 500px; 
+font-family:raleway;
+background-color:#f3f3f3;
+-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+box-shadow: 0 5px 5px 0 rgba(5,0,0,.3);
+}
+span {
+color:red;
+
+}
+.error_message span{
+
+    color:red;
+    padding:3px;
+    margin-left:4px;
+}
+
+}
+.login h3 i {
+font-family:"Lato",sans-serif;
+text-align:center;
+margin-left:30px;
+padding:15px;
+font-weight:700;
+}
+
+.login{
+width:40%;
+float:left;
+font-family:raleway;
+padding:10px 40px 25px;
+margin-top:100px;
+}
+.login form input {
+    width: 105%;
+    padding:5px;
+    background: #fcfcfc;
+    border: 1px solid #;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #888;
+    margin:10px;
+    height: 80%;
+    font-size: 16px;
+}
+.login input[type=submit] {
+width:30%;
+background-color:#ffffff;
+padding:8px;
+font-size:20px;
+cursor:pointer;
+margin-bottom:5px;
+margin-top:10px;
+border:1px solid #fff;
+background: #FFF none repeat scroll 0% 0%;
+color: #A2BD5B;
+box-shadow: none;
+border: medium none;
+text-shadow: none;
+margin-left: 108px;
+}
+input[type=fb_btn_login] {
+width:100%;
+background-color:blue;
+color:#fff;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:5px;
+margin-top:15px;
+border:1px solid #fff;
+}
+.footer 
+    padding: 0px 40px
+}
+.signup_option{
+
+}
+.login_signup_option{
+    margin-left: 90px;
+  
+}
+.signup a{
+    color: #6ba862;
+    border-bottom: 1px solid #fff;
+}
+.login_img img{
+    width:100px;
+    height: 100px;
+    margin-left: 110px;
+}
+/*login form styles ends here*/
+/*registering new user */
+.signup_form{
+
+    margin:170px 0px 0px 470px;
+    background-color:#ffffff;
+    width:400px;
+    border:2px solid #f1f1f1;
+    border-radius: 5px;
+    padding:10px;
+}
+.signup_inner{
+
+    border:1px solid #f2f2f2;
+    padding:9px;
+    border-radius: 5px;
+}
+.signup_form h2{
+    color:#A2BD3D;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.signup_form p{
+    color:#939597;
+   margin:-34px 0px 0px 190px;
+}
+.signup_form a{
+
+    color:#A2BD3D;
+    border-bottom:1px solid #fff;
+}
+.signup_form form input{
+    margin:10px 0px;
+    width:96%;
+    
+
+}
+.signup_form form label{
+font-weight: bold;
+    }
+    .signup_form strong{
+         padding:5px;
+         height: 10px;
+    }
+    .signup_form input[type=submit] {
+width:40%;
+padding:8px;
+font-size:20px;
+cursor:pointer;
+margin-bottom:5px;
+margin-top:10px;
+border:1px solid #fff;
+color: #fff;
+box-shadow: none;
+border: medium none;
+text-shadow: none;
+margin-top: 10px;
+margin-left: 4px;
+}
+
+.form-group p {
+    margin: -35px 0px 10px 190px;
+}
+.signup_footer {
+    margin-left: -2px;
+    margin-top:40px;
+    text-align: center;
+    color:#E8F7E6;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*logout option */
+.register_logout {
+ margin-top: 25px;
+ float: right;
+ 
+}
+ .logout_option a:hover{
+  color:#FF7C09;
+ 
+ }
+ .logout_option{
+    margin-left: 10px; 
+ }
+ .welcome_option{
+  color:#fff;
+  padding-right: 5px;
+ }
+
+
+/*end */
+/*parsley styles starts here*/
+  body{
+
+
+
+  }
+            input.parsley-success
+            {
+              color: #468847 !important;
+              background-color: #DFF0D8 !important;
+              border: 1px solid #D6E9C6 !important;
+            }
+            input.parsley-error
+            {
+              color: #B94A48 !important;
+              background-color: #F2DEDE !important;
+              border: 1px solid #EED3D7 !important;
+            }
+                       }
+            
+            .parsley-error-list
+            {
+                font-size: 11px;
+                margin: 2px;
+                list-style:none; 
+                color:red;
+            }
+            
+            ul.parsley-error-list li
+            {
+                line-height: 13px;
+                color:red;
+                list-style: none;
+            }
+            
+            /* just pushing the button over to the middle 
+
+/*ends here */
+/*success massages*/
+.success_message{
+   color:#3C763D;
+    background-color:#DFF0D8;
+    width:500px;
+    padding:10px;
+    margin:90px 0px 0px 425px ;
+    border-radius: 4px;
+    margin
+}
+.warning_message{
+
+    color:#A54442;
+    background-color:#F2DEDE;
+    width:510px;
+    padding:10px;
+    position: center;
+    margin:60px 0px 0px 425px ;
+    border-radius: 4px;
+}
+.warning_message a{
+    color:#0EA94A;
+}
+.warning_message span{
+
+    color:#A54442;
+}
+
+/*ends here  */
+/*registration page styles starts here*/
+.registration_header{
+
+    background-color: #B4C869;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.registration_logoinfo{
+    margin-top: -40px;
+    color:#5A6C52;
+    font-size: 1em;
+
+}
+.navigation_div{
+    background-color:#5A6C52;
+    height: 30px;
+    width: 1600px;
+    margin-left: -70px;
+    margin-top:-2px; 
+
+}
+.register_body{
+
+    background-color: #D0D0D0;
+    height: 700px;
+    
+}
+.registration{
+    background-color:#F5F5F5;
+    padding:10px;
+    margin: 120px 0px 0px 0px;
+    margin
+    width:%;
+    box-shadow: 0 0 8px #D0D0D0;
+
+}
+.register_info h3{
+    text-align: center;
+    margin-top:88px;
+    width: 50%;
+    margin-left: 340px;
+    padding-top:20px;
+
+}
+.registration_inner{
+    border: 1px solid #ECEBE8;
+    padding:20px;
+    width: 450px;
+
+}
+.registration_inner form input{
+  width:100%;
+  height: 5%;
+
+}
+.registration_inner form label{
+
+    color:#22222B;
+    text-decoration: none;
+    font-size: 1em;
+}
+.registration_button{
+
+    width: 50%;
+    margin-left: 110px;
+}
+.right_widget{
+
+    margin-top: 100px;
+    background-color: #E8E8E8;
+    width: 30%;
+}
+
+/*ends here*/

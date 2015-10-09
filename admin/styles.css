@@ -1,0 +1,86 @@
+@import http://fonts.googl0eapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+.main {
+width:500px;
+margin-top:70px;
+margin-left: 500px; 
+font-family:raleway;
+background-color:#f8f8f8;
+-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+box-shadow: 0 5px 5px 0 rgba(5,0,0,.3);
+}
+span {
+color:red
+}
+h3 {
+background-color:;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+.login {
+width:300px;
+float:left;
+background-color: #f4f4f4;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+input[type=text],input[type=password] {
+	width:100%;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 13px;
+    border: 0px none;
+    background: transparent linear-gradient(#CCC, #FFF) repeat scroll 0% 0%;
+    padding: 4px 5px;
+    outline: 0px none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) isset;
+}
+input[type=text]:focus,input[type=password]:focus {
+	background: #FFF none repeat scroll 0% 0%;
+}
+}
+input[type=submit] {
+background: transparent linear-gradient(#81E058, #187A14) repeat scroll 0% 0%;
+color: #FFF !important;
+margin: 15px 0px 0px 160px;
+}
+.welcome{
+padding:20px;
+margin-top:60px;
+font-size:20px;
+postion:absolute;
+margin-left: 1050px;
+}
+.logout {
+float:right;
+padding:5px;
+margin-right: 20px;
+margin-top: -45px
+}
+a {
+text-decoration:none;
+color:#FF7C09;
+padding-bottom: 5px;
+}
+p {
+color:#FF7C09;
+}
+
+.logout b a:hover{
+	color:#FF7C09;
+
+	border-bottom:4px solid #fff;
+}
