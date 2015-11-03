@@ -34,11 +34,23 @@
                     <div class="logo_info span 3 wow fadeInRight" data-wow-delay="0.6s">
                       <h1>tumas</h1>
                     </div>
+					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+                          <a href="index.php" class="login_option">HOME</a>
+                    </div>
                     <div class="signup_option span 3 wow fadeInRight" data-wow-delay="1.0s">
                           <a href="register.php" class="signup">REGISTER</a>
                     </div>
-                    <div class="login_option span 3 ">
+                    <div class="login_option span 3 wow fadeInRight " data-wow-delay="1.0s">
                           <a href="login.php" class="login_option">LOGIN</a>
+                    </div>
+					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+                          <a href="admin/index.php" class="login_option">ADMIN</a>
+                    </div>
+					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+                          <a href="" class="login_option">ASSOCIATES</a>
+                    </div>
+					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+                          <a href="" class="login_option">DOWNLOADS</a>
                     </div>
                 </div>
             </div>

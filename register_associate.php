@@ -8,7 +8,7 @@
       <div class="registeration_outer">
           <div class="container">
              <div class="row">
-                <div class="right_widget span 4">
+                <div class="right_widget span 6">
                    <p>user panel</p>
                    <div class="row">
                      <div class="img">
@@ -20,7 +20,7 @@
                      </div>
                    </div>
                 </div>
-                  <div class="registration span 7 pull-right wow fadeInRight" data-wow-delay="1s">
+                  <div class="registration span 3 pull-right wow fadeInRight" data-wow-delay="2ss">
                         <div class="registration_inner">
                             <form action="process_registration.php" method="post" data-validate="parsley">
                                 <label for="firstname">First Name</label>
