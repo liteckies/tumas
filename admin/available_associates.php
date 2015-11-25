@@ -4,7 +4,7 @@
 	    <?php
 	         require('layout/header.php');
 			 include 'includes/config.php';
-			mysql_select_db("TUMAMS"); 
+			mysql_select_db("tum_asso"); 
 			// set the query
 			$query = "select * from tumas_associates";
 			// run the query using mysql_query function

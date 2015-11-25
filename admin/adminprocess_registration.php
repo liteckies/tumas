@@ -7,14 +7,14 @@ require('layout/header.php');
               echo 'You have not entered all the required details.Please <a href="new_user.php">check your details again</a><br>';
               }
       //connection to database
-      @ $db = mysql_pconnect("localhost", "root", "root");
+      @ $db = mysql_pconnect("localhost", "root", "ndururi");
           //checking connecting
             if (!$db)
             {
             echo "Error: Could not connect to database, Please try again.";
     }
           //selecting database to use
-          $mysql = mysql_select_db("TUMAMS");
+          $mysql = mysql_select_db("tum_asso");
           if(!$mysql)
             {
             echo "Cannot select database.";

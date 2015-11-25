@@ -22,7 +22,7 @@ if(isset($_SESSION['login_user'])){
                       </div>
                     </div>
                     <input id="password" name="password"  type="password" data-required="true" data-trigger="change" placeholder="password">
-                    <input class="btnlogin" name="submit" type="submit" value="Login"></br>
+					<input class="btnlogin" name="submit" type="submit" value="Login"></br>
                     <span class="login_signup_option">Not a member ? <a href="register.php">signup</span></a>
                </form>
             </div>

@@ -20,13 +20,13 @@ $password = mysql_real_escape_string($password);
 // Selecting Database
 $db = mysql_select_db("tum_asso", $connection);
 // SQL query to fetch information of registerd users and finds user match.
-$query = mysql_query("select * from tum_admin where password='$password' AND username='$username'", $connection);
+$query = mysql_query("select * from tumas_admin where password='$password' AND username='$username'", $connection);
 $rows = mysql_num_rows($query);
 if ($rows == 1) {
 $_SESSION['login_user']=$username; // Initializing Session
 header("location: profile.php"); // Redirecting To Other Page
 } else {
-$error = "Username or Password is invalid";
+$error = "Username or Password is invalid. Try Again!!";
 }
 mysql_close($connection); // Closing Connection
 }

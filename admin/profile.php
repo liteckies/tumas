@@ -5,6 +5,7 @@ include('session.php');
 require('layout/header.php');
 ?> 
 <body>
+<div>
    <div class="panel_main">
       <div class="row">  
           <div class="side_left affix"> 
@@ -13,23 +14,27 @@ require('layout/header.php');
 				 </div>
 				  <div class="add_admin">
 				  <i class="fa fa-pencil " ></i> 
-				   <a href="#add_admin">Add admin</a>
+				   <a href="#add_admin">Add Admin</a>
 				 </div>
 				 <div class="view_associates">
-				 	<a href="associates.php">view associates</a>
+				 	<a href="associates.php">View Associates</a>
 				 </div>
 				  <div class="add_associate">
-				 	<a href="#associates_add"a>Add associate</a>
+				 	<a href="#associates_add">Add Associate</a>
+				 </div>
+				 <div class="add_events">
+				 	<a href="#events_add">Add Events</a>
 				 </div>
 				  <div class="expansion_area">
 	             </div>
            </div>
          </div>
+	</div>
           <div id="dashboard">
              <div class="welcome_message">
-	          <H2>This is the administration area for the tum associates management system</H2>
+	          <H2>This is the administration area for the TUMCU information management system</H2>
 		         <p>You are at liberty to view the already registered associates, search using any 
-		         criteria, and also register assoceates manually without waiting for them to register.
+		         criteria, and also register associates manually without waiting for them to register.
 		         </p> 
 	         </div>
          </div>
@@ -48,6 +53,7 @@ require('layout/header.php');
 			    </div>
 	      </div>
 
+		  <t><t>
 		  <div class="associates_add">
 		  <h3>You can add an associate manually here</h3>
 		       <div id="associates_add">
@@ -68,5 +74,25 @@ require('layout/header.php');
                     </form>
 		       </div>
 		  </div>
- </body>
-</html>
+		  </t></t>
+		  
+		  
+		  <div class="events_add">
+		  <h3><i><font color="grey">You can add an event manually here to be seen by Members<i/></h3>
+		       <div id="events_add">
+			     <form action="events.php" method="post">
+				 <label for="Event">EVENT</label>
+                        <input type="text" id="event" name="event" class="form-control" placeholder="enter the event name..."required>
+                        <label for="venue">VENUE</label>
+                        <input type="text" id="venue" name="venue" placeholder="enter your meeting place here...  "required>
+                        <label for="username">DATE</label>
+                        <input type="text" id="Date" name="Date" placeholder="Your meeting date..." required>
+                        <label for="username">Time</label>
+                        <input type="text" id="Time" name="Time" placeholder="Meeting starts at..." required>
+						<button type="submit">ADD EVENT</button>
+                    </form>
+		       </div>
+		  </div>
+</div>				 
+			   
+		 

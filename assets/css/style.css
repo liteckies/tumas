@@ -33,6 +33,9 @@ strong { font-weight: 700; }
 a:hover { 
     text-decoration: none; 
       }
+.navigation-right{
+   margin-right:200px;
+}
 
 .header {
     margin-top:0px;
@@ -53,6 +56,9 @@ a:hover {
     margin-top: 25px;
 
     
+}
+.logo{
+margin-left:-120px;
 }
 
 .logo a img { height:100px;
@@ -395,11 +401,12 @@ font-weight:700;
 }
 
 .login{
-width:40%;
+width:45%;
 float:left;
 font-family:raleway;
 padding:10px 40px 25px;
 margin-top:100px;
+margin-left:90px;
 }
 .login form input {
     width: 105%;
@@ -434,7 +441,7 @@ border: medium none;
 text-shadow: none;
 margin-left: 108px;
 }
-input[type=fb_btn_login] {
+input[type=fb_btn_] {
 width:100%;
 background-color:blue;
 color:#fff;
@@ -665,7 +672,12 @@ margin-left: 4px;
     width: 50%;
     margin-left: 340px;
     padding-top:20px;
+}
 
+.events_table{
+padding:550px;
+margin-top:88px;
+	
 }
 .registration_inner{
     border: 1px solid #ECEBE8;

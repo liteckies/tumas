@@ -4,7 +4,7 @@
           <?php
           require('layout/header.php');
            include 'includes/config.php';
-          $selected = mysql_select_db("TUMAMS", $link)
+          $selected = mysql_select_db("tum_asso", $link)
             or die("Unable to connect");
 
           //execute the SQL query and return records
@@ -48,8 +48,9 @@
     $('#example').DataTable();
       } );
     </script>
+	
      <?php 
         require('layout/footer.php');
       ?>
 
-    <a href="profile.php">Back to admin panel.</a>  
+     

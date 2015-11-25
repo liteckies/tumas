@@ -9,14 +9,14 @@
 		   // formats user input before entering in the database
 		$username=addslashes($username);
 		$password= addslashes($password);
-		@$db = mysql_pconnect("localhost", "root", "root");
+		@$db = mysql_pconnect("localhost", "root", "ndururi");
 		//checking connecting
 		if (!$db)
 		{
 		echo "Error: Could not connect to database, Please try again.";
 		}
 		//selecting database to use
-		$mysql = mysql_select_db("TUMAMS");
+		$mysql = mysql_select_db("tum_asso");
 		if(!$mysql)
 		{
 		echo "Cannot select database.";

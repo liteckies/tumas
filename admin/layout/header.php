@@ -27,7 +27,7 @@
               $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
             });
           });
-    </script>
+        </script>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="icon" type="image/ico" href="assets/img/favicon_logo.png"/>
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -39,11 +39,11 @@
       <div class="header navbar-fixed-top">
             <div class="container">
                 <div class="row">
-                    <div class="logo span2 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="logo span2 wow fadeInLeft" data-wow-delay="0.09s">
                        <a href="profile.php"><img src="assets/img/logo.png"></a>
                     </div>
-                    <div class="logo_info span2 wow fadeInRight" data-wow-delay="0.6s">
-                      <h1><span class="red">tumas</span></h1>
+                    <div class="logo_info span2 wow fadeInRight" data-wow-delay="0.09s">
+                      <h2><span class="red">TUMAS ADMIN PANEL</span></h2>
                     </div>
                     <div class="admin-right">
                       <span  class="fa fa-user"></span>
@@ -51,7 +51,8 @@
       
                         </div>
                         <div class="logout">
-                           <b><a href="logout.php">Log Out</a></b>
+                           <b><a href="logout.php">Log Out</a></b><br><br>
+						   <b><a href="profile.php"> Back Home</a></b>
                         </div>
                     </div>
                 </div>

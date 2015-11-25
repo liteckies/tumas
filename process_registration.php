@@ -1,4 +1,8 @@
  <!DOCTYPE html>
+ <?php
+          require('layout/login_header.php'); 
+        ?> 
+ 
 <html lang="en">
     <head>
          <meta charset="utf-8">
@@ -42,18 +46,18 @@
                  }
 
                     //quering the database
-           $rs=mysql_query("select * from tum_associates where reg_number='$regnumber'");
+           $rs=mysql_query("select * from tumas_associates where reg_number='$regnumber'");
             if (mysql_num_rows($rs)>0)
             {
-              echo '<br><br><br><br><div class=head1>'.$name.'already registered, Relax bana. <a href="new_user.php">.</a></div>';
+              echo '<br><br><br><br><div class=head1>'.$name.'already registered, Relax bana. <a href="associates.php">.</a></div>';
               exit;
             }
-             $query="insert into tum_associates ( fname,sname,reg_number,year_completed,phone_number,ministry)
+             $query="insert into tumas_associates ( fname,sname,reg_number,year_completed,phone_number,ministry)
                         values('$firstname','$lastname','$regnumber','$year_completed','$phonenumber','$ministry')";
  
                         $result = mysql_query($query);
                          if ($result)
-                              echo'Hi '.$firstname.' You have succesifully registered, Your data is secure.<a href="index.php">.</a></div>';
+                              echo'Hi '.$firstname.' You have succesifully registered, Your data is secure.<a href="associates.php">.</a></div>';
        ?>
          <!-- Javascript -->
         <script src="assets/js/jquery.min.js"></script>

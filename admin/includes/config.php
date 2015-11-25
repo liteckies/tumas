@@ -1,8 +1,8 @@
 <?php
 $db_host		= 'localhost';
 $db_user		= 'root';
-$db_pass		= 'root';
-$db_database	= 'TUMAMS';
+$db_pass		= 'ndururi';
+$db_database	= 'tum_asso';
 
 /* End config */
 

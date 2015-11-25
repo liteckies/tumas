@@ -20,7 +20,7 @@
                      </div>
                    </div>
                 </div>
-                  <div class="registration span 3 pull-right wow fadeInRight" data-wow-delay="2ss">
+					 <div class="registration span 3 pull-right wow fadeInRight" data-wow-delay="2ss">
                         <div class="registration_inner">
                             <form action="process_registration.php" method="post" data-validate="parsley">
                                 <label for="firstname">First Name</label>
@@ -36,11 +36,12 @@
                                 <label for="username">Ministry Served</label>
                                 <input type="text" id="ministry_served" name="ministry"  data-required="true" data-trigger="change" placeholder="which ministry did you serve in?...">
                                <div class="registration_button">
-                                  <div class="col-xs-6 col-md-6"><input type="submit" name="submit" value="Register" class="registration_btn" tabindex="5"></div>
+                                  <div class="col-xs-6 col-md-6"><input type="submit" name="submit" value="Register" class="registration_btn" tabindex="5">
+								  </div>
                                </div>
                             </form>
                        </div>
-                  </div>
+                  </div> 
               </div>
            </div>
         </div>

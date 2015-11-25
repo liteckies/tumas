@@ -33,7 +33,7 @@
                        <a href="index.html"><img src="assets/img/logo.png"></a>
                     </div>
                     <div class="logo_info span2 wow fadeInRight" data-wow-delay="0.6s">
-                      <h1><span class="red">tumas</span></h1>
+                      <h1><span class="red">TUMAS</span></h1>
                     </div>
                     <div class="register_logout" data-wow-delay="0.9s">
                         <b id="welcome" class="welcome_option" >Welcome : <i><?php echo $login_session; ?></i></b>

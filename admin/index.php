@@ -16,7 +16,7 @@ if(isset($_SESSION['login_user'])){
 					<label>UserName :</label>
 					<input id="name" name="username" date-required="true" data-trigger="change" placeholder="username" type="text" title="">
 					<label>Password :</label>
-					<input id="password" name="password" placeholder="**********" type="password">
+					<input id="password" name="password" placeholder="************" type="password">
 					<input name="submit" type="submit" class="btn" value=" Login ">
 				</form>
 			</div>

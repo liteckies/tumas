@@ -27,31 +27,38 @@
     <body>
       <div class="header navbar-fixed-top">
             <div class="container">
-                <div class="row">
-                    <div class="logo span 3 wow fadeInLeft" data-wow-delay="0.3s">
-                       <a href="index.php"><img src="assets/img/logo.png"></a>
-                    </div>
-                    <div class="logo_info span 3 wow fadeInRight" data-wow-delay="0.6s">
-                      <h1>tumas</h1>
-                    </div>
-					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
-                          <a href="index.php" class="login_option">HOME</a>
-                    </div>
-                    <div class="signup_option span 3 wow fadeInRight" data-wow-delay="1.0s">
-                          <a href="register.php" class="signup">REGISTER</a>
-                    </div>
-                    <div class="login_option span 3 wow fadeInRight " data-wow-delay="1.0s">
-                          <a href="login.php" class="login_option">LOGIN</a>
-                    </div>
-					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
-                          <a href="admin/index.php" class="login_option">ADMIN</a>
-                    </div>
-					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
-                          <a href="" class="login_option">ASSOCIATES</a>
-                    </div>
-					<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
-                          <a href="" class="login_option">DOWNLOADS</a>
-                    </div>
-                </div>
-            </div>
-       </div>
+				   <div class="row">
+					  <div class="navigation-left">
+							<div class="logo span 3 wow fadeInLeft" data-wow-delay="0.3s">
+							   <a href="index.php"><img src="assets/img/logo.png"></a>
+							</div>
+							<div class="logo_info span 3 wow fadeInRight" data-wow-delay="0.6s">
+							<h1>TUMAS</h1>
+							</div>
+						</div>
+						<div class="navigation-right">
+							<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+								  <a href="index.php" class="login_option">HOME</a>
+							</div>
+							<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+								  <a href="login.php" class="login_option">ASSOCIATES</a>
+							</div>
+							<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+								  <a href="" class="login_option">DOWNLOADS</a>
+							</div>
+							<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+								  <a href="admin/index.php" class="login_option">ADMIN</a>
+							</div>
+							<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+								  <a href="contactus.php" class="signup">CONTACT US</a>
+							</div>
+							<div class="login_option span 3 wow fadeInRight" data-wow-delay="1.0s">
+								  <a href="register.php" class="signup">REGISTER</a>
+							</div>
+							<div class="login_option span 3 wow fadeInRight " data-wow-delay="1.0s">
+								  <a href="login.php" class="login_option">LOGIN</a>
+							</div>
+					  </div>
+				  </div>
+			</div>
+        </div>

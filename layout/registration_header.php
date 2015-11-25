@@ -30,7 +30,7 @@
             <div class="container registration_container">
                 <div class="row">
                     <div class="span 4 wow fadeInRight" data-wow-delay="0.6s">
-                      <h1><span class="registration_logoinfo">tumas</span></h1>
+                      <h1><span class="registration_logoinfo">TUMAS</span></h1>
                     </div>
                     <div class="span 4 search_button">
                     </div>

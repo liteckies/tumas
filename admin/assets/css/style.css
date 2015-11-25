@@ -61,15 +61,17 @@ a:hover {
                
                
  }
+ 
 .header {
-    margin: 0 auto;
-    padding-bottom: 15px;
+    margin: 05 auto;
+    padding-bottom: 05px;
     background-color:#B4C869;
     border-top: 4px solid #FF7C09;;
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
-    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.3);
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
 }
+*/
 .links {
     text-align: right;
     margin-top: 10px;
@@ -511,12 +513,14 @@ body{
 }
 /*admin panel styles */
 .side_left{
-    margin-top: 15px;
+    margin-top: 90px;
+	padding-left:30px;
+	background-color:fff;
 }
 .panel_main{
 
-    margin-left: 35px;
- background: #f4f4f4 url(../img/tiledbackground.jpg) left top repeat;
+    margin-left: 25px;
+   background: #f4f4f4 url(../img/tiledbackground.jpg) left top repeat;
 }
 .admin_main{
 background-color: #B4C869;
@@ -557,6 +561,13 @@ background-color: #B4C869;
     padding:7px 89px 7px 10px;
 }
 
+.add_event{
+	color:#fff;
+    background-color: #A8B400;
+    padding:7px 89px 7px 10px;
+	margin-bottom:350px;
+}
+
 .add_associate{
 background-color: #B4C869;
  padding-left:5px;
@@ -572,12 +583,21 @@ background-color: #B4C869;
 
 }
 .add_associate a:hover{
-
     color:#fff;
     background-color: #A8B400;
     padding:7px 59px 7px 35px;
     text-align: left;
 }
+
+.add_events a:hover{
+color:#fff;
+    background-color: #A8B400;
+    padding:7px 59px 7px 35px;
+    text-align: left;
+	margin-bottom:350px;
+	
+}
+
 .view_associates{
 background-color: #B4C869;
  padding-left:5px;
@@ -628,12 +648,14 @@ background-color: #B4C869;
     text-align: center;
     height: 200px;
     height:350px;
+	color:k;
 }
 .add_user{
 
     width:500px;
     margin-left: 500px;
     margin-top:10px;
+	margin-bottom:350px;
 }
 
 /* sub section styles ends here*/
@@ -719,8 +741,17 @@ margin-top: 30px;
 
     width:500px;
     margin-left: 500px;
+    margin-top: 190px;
+	margin-bottom:350px;
+}
+
+.events_add{
+
+    width:600px;
+    margin-left: 500px;
     margin-top: 60px;
 }
+
 .admin_add_associate{
 
     margin-top:74px;
@@ -730,14 +761,16 @@ margin-top: 30px;
     border-top:5px solid #ff7c09;
 }
 .head1{
-
-    color:red;
+	
+    color:DYFF;
     text-align: center;
-    text-decoration: blink;
+    text-decoration: ffff;
     font-size: 15px;
     font-weight:bold;
-    font-family: ;
-    padding-bottom: 10px;
+    font-family:newtimes roman ;
+    padding-bottom: 20px;
+	padding-top: 20px;
+    margin-top: 50px
 }
 /* styles ends here*/
 /*associates table styles */
